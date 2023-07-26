@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import ButtonTest from "./test/ButtonTest";
+import InputTest from "./test/InputTest";
+import OneCheckOrRadioTest from "./test/OneCheckOrRadioTest";
+import { SelectTest } from "./test/SelectTest";
+import TextareaTest from "./test/TextareaTest";
+import '../src/form_utility/fields/css/Style.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/*
+       <InputTest  />
+       <SelectTest />
+       <TextareaTest /> */}
+       <ButtonTest />
+       <OneCheckOrRadioTest />  
     </div>
   );
 }

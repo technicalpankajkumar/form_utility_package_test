@@ -1,0 +1,21 @@
+.form-utility-onecheck{
+    cursor: pointer;
+}
+.form-utility-onecheck-danger{
+    accent-color: var(--danger);
+}
+.form-utility-onecheck-dark{
+    accent-color: var(--dark);
+}
+.form-utility-onecheck-warning{
+    accent-color: var(--warning);
+}
+.form-utility-onecheck-blueviolet{
+    accent-color: var(--blueviolet);
+}
+.form-utility-onecheck-darkblue{
+    accent-color: var(--darkblue);
+}
+.form-utility-onecheck-success{
+    accent-color: var(--success);
+}
